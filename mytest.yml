@@ -23,7 +23,8 @@ spring:
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
   type-aliases-package: com.mlq.bean    # 所有Entity别名类所在包
-  mapper-locations: - classpath:mybatis/mapper/**/*.xml 
+  mapper-locations: 
+  - classpath:mybatis/mapper/**/*.xml 
   
 eureka:
     client:
@@ -55,7 +56,8 @@ spring:
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
   type-aliases-package: com.mlq.bean    # 所有Entity别名类所在包
-  mapper-locations: - classpath:mybatis/mapper/**/*.xml 
+  mapper-locations: 
+  - classpath:mybatis/mapper/**/*.xml 
   
 eureka:
     client:
